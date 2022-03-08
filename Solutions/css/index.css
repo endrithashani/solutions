@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@100&display=swap');
+*{
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Nunito', sans-serif;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.header{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 80px;
+	background-color: #262629;
+	position: sticky;
+}
+.header-logo{
+	font-size: 34px;
+	color: white;
+	font-weight: bold;
+}
+ul {
+	display: flex;
+	margin-left: 80px;
+}
+li{
+	list-style: none;
+	padding: 8px;
+	font-size: 20px;
+}
+li a{
+	color: white;
+	font-weight: bold;
+}
+.watch-video{
+	text-decoration-line: underline;
+	margin-left: 15%;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+a:hover{
+	color: green;
+}
+.first-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: #262629;
+	width: 100%;
+	height: 500px;
+}
+.first-container-text{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.first-container-text h1{
+	font-size: 53px;
+	color: white;
+	font-weight: bold;
+}
+.first-container-text p{
+	margin-top: 15px;
+	color: white;
+}
+.buttons-first{
+	margin-top: 25px;
+}
+.btn-first{
+	border:none;
+	border-radius: 25px;
+	background-color: green;
+	height: 50px;
+	width: 150px;
+}
+.btn-first a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.btn-second{
+	border:1px solid green;
+	border-radius: 25px;
+	background-color: transparent;
+	height: 50px;
+	width: 150px;
+	font-color:green;
+	margin-left: 20px;
+}
+.btn-second a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: green;
+}
+.second-container{
+	display: flex;
+	width: 1200px;
+	height: 600px;
+	margin-top: -50px;
+	flex-direction: column;
+	box-shadow: 0.25px 0.25px 0.25px 0.25px #2222;
+	background-color: white;
+	border:transparent;
+}
+.sec-container{
+	margin-left: 40px;
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+.second-container img{
+	margin-top: 15px;
+	width: 30px;
+	height: 30px;
+}
+.second-container h1{
+	margin-top: 15px;
+}
+.containers{
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 30%;
+	margin-left: 25px;
+}
+.secc-container{
+	margin-left: 40px;
+	margin-top: 15px;
+	display: flex;
+	width: 100%;
+	height: 300px;
+}
+.third-container{
+	display: flex;
+	width: 1100px;
+	height: 500px;
+	margin-top: 80px;
+}
+.third-text{
+	width: 45%;
+}
+.third-container h1{
+	margin-top: 55px;
+	font-size: 53px;
+	font-weight: bold;
+}
+.third-container p{
+	margin-top: 15px;
+}
+.third-button{
+	margin-top: 15px;
+	border:none;
+	width: 150px;
+	background-color: green;
+	height: 50px;
+	border-radius: 5px;
+}
+.third-button a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
+.third-image{
+	width: 55%;
+	height: 500px;
+}
+.third-image img{
+	width: 100%;
+	height: 100%;
+}
+.fourth-container{
+	display: flex;
+	width: 1100px;
+	height: 500px;
+	margin-top: 120px;
+}
+.fourth-image{
+	width: 50%;
+}
+.fourth-image img{
+	width: 100%;
+	height: 500px;
+}
+.fourth-text{
+	width: 45%;
+	margin-left: 50px;
+}
+span{
+	font-size: 53px;
+	font-weight: bold;
+}
+.design{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 15px;
+	box-sizing: border-box;
+	height: 100px;
+	width: 55%;
+	background-color: white;
+	border:transparent;
+	box-shadow: 0.25px 0.25px 0.25px 0.25px #2222;
+}
+.design-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: green;
+}
+.design-image img{
+	width:20px;
+	height: 20px; 
+}
+.design-text{
+	margin-left: 15px;
+}
+.customers{
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.customers h1{
+	font-size: 53px;
+	font-weight: bold;
+}
+.news{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 1100px;
+	height: 230px;
+	margin-top: 100px;
+	background-color: #262629;
+	margin-bottom: 100px;
+}
+.news h1{
+	margin-top: 10px;
+	font-size: 53px;
+	font-weight: bold;
+	color: white;
+}
+.news p{
+	color: white;
+}
+.news-btn{
+	position: relative;
+	width: 500px;
+	height: 50px;
+}
+.input{
+	position: relative;
+	width: 500px;
+	height: 50px;
+	margin-top: 25px;
+	left: 0;
+}
+.input-btn{
+	position: absolute;
+	top: 32px;
+	left: 380px;
+	height: 40px;
+	width: 120px;
+	border:none;
+	border-radius: 5px;
+	background-color: lightgreen;
+}
+.input-btn a{
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 1100px;
+	height: 300px;
+	align-items: center;
+}
+.footer-container{
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	width: 300px;
+	margin-left: 100px;
+}
+.footer-container1{
+	display: flex;
+	flex-direction: column;
+	height: 150px;
+	width: 300px;
+	margin-top: -15px;
+}
+.footer-container p{
+	margin-top: 15px;
+	font-size: 18px;
+	color: grey;
+}
+.footer-container1 p{
+	margin-top: 10px;
+	font-size: 18px;
+	color: grey;
+}
+.footer-container h1{
+	font-size: 20px;
+	color: black;
+	font-weight: bolder;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  text-align: right;
+}
+.topnav a:hover{
+	color: green;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav-logo{
+	color: white;
+	display: none;
+	font-size: 38px;
+	font-weight: bold;
+	text-align: left;
+}
+
+/* Style the active link (or home/logo) */
+.active a{
+  background-color: #3A1ED5;
+}
+@media only screen and (max-width:550px){
+	.main{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.first-container{
+		flex-direction: column;
+		height: 100%;
+	}
+	.second-container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	.containers h1{
+		margin-left: -50px;
+		width: 100%;
+	}
+	.sec-container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.secc-container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.third-container{
+		display: flex;
+		width: 400px;
+		height: 100%;
+		margin-top: 180px;
+		margin-bottom: 180px;
+		flex-direction: column;
+	}
+	.third-text{
+		width: 100%;
+	}
+	.third-image{
+		width: 100%;
+	}
+	.fourth-container{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+	.fourth-image{
+		width: 100%;
+	}
+	.fourth-text{
+		width: 100%;
+	}
+	.fourth-text span{
+		font-size: 40px;
+	}
+	.customers h1{
+		font-size: 40px;
+	}
+	.news{
+		width: 80%;
+	}
+	.news h1{
+		font-size: 40px;
+	}
+	.input{
+		width: 65%;
+		margin-left: 15%;
+	}
+	.input-btn{
+		left: 280px;
+	}
+	.footer{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+	}
+	.footer-container1{
+		margin-left: 100px;
+	}
+	.header{
+		display: none;
+	}
+	.topnav{
+		display: inline-block;
+		width: 100%;
+		background-color: #262629;
+	}
+	.topnav-logo{
+		display: block;
+	}
+	.topnav a.icon{
+		display: block;
+	}
+	body{
+		overflow-x: hidden;
+	}
+}
